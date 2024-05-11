@@ -1,15 +1,39 @@
 {
-  "name": "lib",
+  "name": "@imrandil/json-to-excel-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A utility for converting JSON data to Excel files memory efficient way, providing robust error handling, configurable headers, and support for large datasets.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
   "dependencies": {
     "exceljs": "4.4.0"
+  },
+  "keywords": [
+    "json",
+    "excel",
+    "generator",
+    "conversion",
+    "data",
+    "file",
+    "utility",
+    "nodejs"
+  ],
+  "author": "Ali Imran Adil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMRANDIL/json_to_excel_lazily_npm_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IMRANDIL/json_to_excel_lazily_npm_package/issues"
+  },
+  "homepage": "https://github.com/IMRANDIL/json_to_excel_lazily_npm_package",
+  "devDependencies": {
+    "mocha": "^9.1.0"
   }
 }
