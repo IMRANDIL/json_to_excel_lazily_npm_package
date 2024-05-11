@@ -15,13 +15,13 @@ This package provides a memory-efficient solution for generating Excel files fro
 You can install the package via npm:
 
 ```bash
-npm install json-to-excel-generator
+npm install @imrandil/json-to-excel-generator
 ```
 
 ### Usage
 
 ```javascript
-const excelGenerator = require('json-to-excel-generator');
+const excelGenerator = require('@imrandil/json-to-excel-generator');
 
 const jsonFilePath = './data.json';
 const excelFilePath = 'output.xlsx';
